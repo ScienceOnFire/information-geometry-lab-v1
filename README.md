@@ -2,4 +2,7 @@
 
 The model uses 10 coupled stochastic swing equations, a 50 Hz base, a 0.02 s time step and a temporary power pulse at 1–1.3 s. Ensemble moments or trailing single-realization moments feed Gaussian Fisher geometry. These estimators are not equivalent. Complete-linkage clustering uses RMS Fisher–Rao distance, correlation distance, normalized information-length difference or their FR/correlation hybrid. Thresholds are metric-specific. Spectra are relative Hann-windowed DFT power, not modal identification. Finite ensemble derivatives and initial sliding-window variance floors can cause noisy information rates. The topology and parameters are illustrative, not a validated benchmark. Group colors may change between windows. No claim of scientific novelty or validated accuracy.
 
+If you are interested and you feel that it has contributed to your research, kindly cite the following paper 
+https://ieeexplore.ieee.org/document/9695169
+
 Reference motivation: Guel-Cortez et al., Entropy 26(4), 323 (2024), https://doi.org/10.3390/e26040323. This is a proposed power-system extension, not a reproduction of the paper's MPC.
